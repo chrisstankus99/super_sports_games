@@ -42,6 +42,6 @@ class EventTest < Minitest::Test
   def test_if_it_can_get_standard_deviation
     event = Event.new("Curling", [24, 30, 18, 20, 41])
 
-    assert_equal 8.28, event.standard_deviation_age
+    assert_equal 8.28, event.standard_deviation
   end
 end
